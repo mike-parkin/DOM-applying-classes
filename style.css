@@ -20,6 +20,12 @@ div {
 .blue {
   background-color: blue;
 }
+.green {
+  background-color: green;
+}
+.papayawhip {
+  background-color: papayawhip;
+}
 
 .invisible {
   display: none;
