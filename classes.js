@@ -8,6 +8,7 @@ function start () {
   one();
   two(); 
   three(); 
+  makeVisible();
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -31,3 +32,7 @@ function three() {
   three.classList.add('papayawhip');
 }
 // CREATE FUNCTION makeVisible HERE
+function makeVisible() {
+  var visible = document.getElementsByClassName('invisible');
+  visible[0].classList.add('visible');
+}
